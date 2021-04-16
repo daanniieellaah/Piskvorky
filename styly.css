@@ -230,12 +230,13 @@ display: block;
   width: 80vmin;
   height: 80vmin;
   box-shadow: rgba(12, 11, 11, 0.35) 5px 5px 15px 5px;
+  border: 0.5px solid rgb(43, 41, 43, 0.95);
 }
 
 .pole {
   background-color:rgb(171, 161, 212);
   width: 10%;
-  border: 1px solid rgba(66, 59, 66, 0.95);
+  border: 0.5px solid rgba(43, 41, 43, 0.95);
 }
 
 .pole:hover,
