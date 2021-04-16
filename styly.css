@@ -229,20 +229,19 @@ display: block;
   flex-wrap: wrap;
   width: 80vmin;
   height: 80vmin;
-  box-shadow: 
+  box-shadow: rgba(12, 11, 11, 0.35) 5px 5px 15px 5px;
 }
 
 .pole {
-  background-color: rgba(190, 178, 227, 0);
+  background-color:rgb(171, 161, 212);
   width: 10%;
-  padding: 0;
-  border: 1px solid rgba(38, 35, 35, 0.9);
+  border: 1px solid rgba(66, 59, 66, 0.95);
 }
 
-.pole :hover,
-.pole :active,
-.pole :focus {
- 
+.pole:hover,
+.pole:active,
+.pole:focus {
+ background-color: rgb(191, 183, 226);
 }
  
 
