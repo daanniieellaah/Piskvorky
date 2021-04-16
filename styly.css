@@ -161,10 +161,8 @@ figcaption {
 .navigace {
   display: flex;
   justify-content: space-between;
-  text-align:center;
   margin:20px 0;
-  flex-wrap: wrap;
-  
+  flex-wrap: wrap; 
 }
 
 .hraje {
@@ -200,6 +198,7 @@ display: block;
   width: 30px;
   height: 30px;
   border-radius: 5px;
+  
 }
 
 .button_home :hover,
