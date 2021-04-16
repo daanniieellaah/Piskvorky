@@ -158,12 +158,21 @@ figcaption {
   margin: 20px;
 }
 
+.navigace {
+  display: flex;
+  justify-content: space-between;
+  text-align:center;
+  margin:20px 0;
+  flex-wrap: wrap;
+  
+}
 
 .hraje {
   color: white;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
   font-size: x-large;
+  display: flex;
 } 
 
 .kolecko {
@@ -172,35 +181,30 @@ figcaption {
   height: 1em;
   filter: invert(100%);
   vertical-align: text-bottom;
+  padding-left: 10px;
 }
 
-.navigace, .ikony_home_restart {
-display: flex;
+.ikony_home_restart {
+display: block;
 }
 
-
-/*.navigace {
-  justify-content: space-between;
-  text-align: center;
-  margin: 30px 0;
-}*/
-
-
+.home, .restart {
+  width: 100%;
+  vertical-align: middle;
+}
 
 .button_home {
   background-color:#1fcca4 ;
   display: inline-block;
-  border-radius: 10px;
-  margin: 20px 0;
-  background-repeat: no-repeat;
-  background-position: center;
-   width: 40px;
-  height: 40px;
-  padding: 0;
+  border-radius: 10px;  
+  width: 30px;
+  height: 30px;
   border-radius: 5px;
 }
 
-.button_home :hover {
+.button_home :hover,
+.button_home :focus,
+.button_home :active {
   background-color: #1cbb96 ;
 }
 
@@ -208,15 +212,15 @@ display: flex;
   background-color: #0197f6 ;
   display: inline-block;
   border-radius: 10px;
-  background-repeat: no-repeat;
-  background-position: center;
-  width: 40px;
-  height: 40px;
-  padding: 0;
+  width: 30px;
+  height: 30px;
   border-radius: 5px;
 }
 
-.button_restart :hover {
+.button_restart :hover,
+.button_restart :focus,
+.button_restart :active 
+ {
   background-color: #0090e9 ;
 }
 
@@ -225,15 +229,20 @@ display: flex;
   flex-wrap: wrap;
   width: 80vmin;
   height: 80vmin;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  box-shadow: 
 }
 
 .pole {
-  background-color: rgba(245, 245, 245, 0.4);
+  background-color: rgba(190, 178, 227, 0);
   width: 10%;
   padding: 0;
   border: 1px solid rgba(38, 35, 35, 0.9);
 }
 
-
+.pole :hover,
+.pole :active,
+.pole :focus {
  
+}
+ 
+
