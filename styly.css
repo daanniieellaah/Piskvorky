@@ -163,7 +163,9 @@ figcaption {
   justify-content: space-between;
   margin:20px 0;
   flex-wrap: wrap; 
+  align-items: center;
 }
+/* Přidáno jako review tip k úkolu č. 3: align-items: center */
 
 .hraje {
   color: white;
@@ -238,10 +240,12 @@ display: block;
   border: 0.5px solid rgba(43, 41, 43, 0.95);
 }
 
-.pole:hover,
-.pole:active,
-.pole:focus {
+.pole:hover
+ {
  background-color: rgb(191, 183, 226);
+ cursor: pointer;
 }
- 
+ /* Přidáno jako review tip k úkolu č. 3:  cursor: pointer */
+ /* Odebráno: .pole:active,
+.pole:focus */
 
