@@ -240,12 +240,41 @@ display: block;
   border: 0.5px solid rgba(43, 41, 43, 0.95);
 }
 
-.pole:hover
- {
+.pole:hover {
  background-color: rgb(191, 183, 226);
  cursor: pointer;
 }
  /* Přidáno jako review tip k úkolu č. 3:  cursor: pointer */
  /* Odebráno: .pole:active,
 .pole:focus */
+
+/* úkol č. 4: hra.js */
+
+@keyframes showSymbol {
+	0% {
+		background-size: 0%;
+	}
+
+	100% {
+		background-size: 65%;
+	}
+}
+
+.board__field--circle {
+  background-image: url('obrázkové podklady/circle.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 80%;
+
+  animation: showSymbol 0.15s;
+}
+
+.board__field--cross {
+  background-image: url('obrázkové podklady/cross.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 80%;
+
+  animation: showSymbol 0.15s;
+}
 
